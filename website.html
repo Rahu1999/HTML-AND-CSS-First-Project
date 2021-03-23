@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>First Project</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("images/1st.jpg");
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-size: cover;
+
+        }
+
+        .contaner {
+            color: rgb(244, 243, 247);
+            border: 2px solid rgb(212, 12, 12);
+            padding: 0px 5px;
+            font-family: 'Alfa Slab One', cursive;
+            font-size: 19px;
+
+        }
+
+        .contaner1 {
+            display: inline-block;
+            color: rgb(244, 243, 247);
+            border: 2px solid rgb(161, 235, 44);
+            padding: 24px 26px;
+            margin: 12px 4px;
+            font-family: 'Alfa Slab One', cursive;
+            font-size: 19px;
+
+        }
+
+        .contaner1 div {
+            margin: 10px 9px;
+        }
+
+        .contaner div button {
+            font-family: 'Alfa Slab One', cursive;
+            margin: 9px 9px;
+            padding: 8px 20px;
+            border: 2px solid grey;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        .contaner div button:hover {
+
+            color: red;
+            cursor: pointer;
+           
+        }
+
+        .right img {
+            /* display: inline-block; */
+            width: 50px;
+            height: 50px;
+        }
+
+        .right {
+            display: inline-block;
+            border: 2px solid red;
+            padding: 5px 5px;
+            margin: 12px 7px 0px 1px;
+        }
+
+        .middle {
+        
+            display: inline-block;
+            width: 45%;
+            border: 2px solid white;
+            position: relative;
+            left: 284px;
+            bottom: 18px;
+        }
+
+        .list li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 1px 24px;
+
+        }
+
+        .left {
+            display: inline-block;
+            border: 2px solid green;
+            position: relative;
+            left: 362px;
+            bottom: 20px;
+            padding: 15px 5px;
+        }
+
+        .radiobtn div {
+            display: inline-block;
+            font-style: italic;
+            margin: 3px 6px;
+
+        }
+
+        .contaner1 div button {
+            font-family: 'Alfa Slab One', cursive;
+            margin: 28px 149px;
+            padding: 6px 22px;
+        }
+        .contaner1 #date{
+            margin: 8px 17px;
+        }
+        .contaner div li a{
+            color: white;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- <img src="images/1st.jpg"> -->
+    <div class="contaner">
+        <div class="right">
+            <img src="images/2nd.png">
+        </div>
+        <div class="middle">
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="left">
+            <button type="button">Call Us</button>
+            <button type="button">Email Us</button>
+        </div>
+    </div>
+    <div class="contaner1">
+        <h2>Register Here</h2>
+        <div>
+            <div>Name :-<input name="Name" id="name1" placeholder="EnterYourName"></div>
+        </div>
+        <div>
+            <div>Email :-<input name="Email" id="email1" placeholder="EnterYourEmail"></div>
+        </div>
+        <div>
+            <div>Number :-<input name="Number" id="Number" placeholder="Enter Number"></div>
+        </div>
+        <div class="radiobtn">
+            <div id="gender">Gender :-
+                <div><input type="radio" name="gender">Male</div>
+                <!-- <label for="male">Male</label> -->
+                <div><input type="radio" name="gender">Female</div>
+                <!-- <label for="female">Female</label> -->
+                <div><input type="radio" name="gender">Other</div>
+                <!-- <label for="other">Other</label> -->
+            </div>
+        </div>
+        <div id="date">Birth Date :-<input type="date" name="mydate"></div>
+        <div><button type="submit">Submit</button></div>
+
+    </div>
+
+
+</body>
+
+</html>
